@@ -4,8 +4,12 @@
 
     <h2>Example.com - Employee Portal</h2>
     <h3>Current shipment stats</h3>
-      
+
+    <button onclick="showTabInIframe('testId', 1)">タブ1を表示</button>
+    <button onclick="showTabInIframe('testId', 2)">タブ2を表示</button>
+    
     <iframe
+        id="testId"
         width="960"
         height="720"
         src="https://ap-northeast-1.quicksight.aws.amazon.com/sn/embed/share/accounts/464241049525/dashboards/4a6c6c5a-2e6c-41da-8392-5f271a49fa3b?directory_alias=hintakaquicksight">
